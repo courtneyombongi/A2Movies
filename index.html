@@ -6,16 +6,18 @@
     <title>A2 MOVIES</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
+   
 </head>
+
 <body>
     <header>
-        <img class="logo" src="A2 Movies Icon.png" alt="logo">
+        <img class="logo" src="images/A2 Movies Icon.jpeg" alt="logo">  
         <nav>
             <ul class="nav__links">
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">Admin</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="#">MOVIES</a></li>
+                <li><a href="#">ADMIN</a></li>
+                <li><a href="login.html">LOGIN</a></li> <!-- Link to the login page -->
                 <li class="search">
                     <form>
                         <input type="text" placeholder="Search Movies">
@@ -25,5 +27,81 @@
             </ul>
         </nav>
     </header>
+
+
+    <!-- Creating Container to Hold now showing movies --> 
+    
+    <div class = "containter">   <!-- div class container starts here -->
+        <div class = "content-holder">
+            <div class="now-playing-movies">
+                <h1 class ="movies-list-title"> NOW PLAYING</h1>
+                <div class =" movies-list-wrapper">
+                    <div class ="movies-list">
+                        <div class = "movies-list-item">
+
+                            <!-- Place Holder Image for Movies-->
+                            <img class="now-playing-movies-img" src="images/MeanGirls.jpeg" alt = "">
+                           
+                        </div>
+                        <div class = "movies-list-item">
+
+                            <!-- Place Holder Image for Movies-->
+                            <img class="now-playing-movies-img" src="images/PoorThings.jpeg" alt = "">
+
+                        </div>
+                        <div class = "movies-list-item">
+
+                            <!-- Place Holder Image for Movies-->
+                            <img class="now-playing-movies-img" src="images/ABY.jpeg" alt = "">
+                        </div>
+                        <div class = "movies-list-item">
+
+                            <!-- Place Holder Image for Movies-->
+                            <img class="now-playing-movies-img" src="images/Wonka.jpeg" alt = "">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  <!-- div class container ends here -->
+
+
+
+      <!-- second container class for now showing movies -->
+    <div class = "containter">   <!-- div class container starts here -->
+        <div class = "content-holder">
+            <div class="coming-soon-movies">
+                <h1 class ="movies-list-title"> COMING SOON</h1>
+                <div class =" movies-list-wrapper">
+                    <div class ="movies-list">
+                        <div class = "movies-list-item">
+
+                            <!-- Place Holder Image for Movies-->
+                            <img class="now-playing-movies-img" src="images/MeanGirls.jpeg" alt = "">
+                           
+                        </div>
+                        <div class = "movies-list-item">
+
+                            <!-- Place Holder Image for Movies-->
+                            <img class="now-playing-movies-img" src="images/PoorThings.jpeg" alt = "">
+
+                        </div>
+                        <div class = "movies-list-item">
+
+                            <!-- Place Holder Image for Movies-->
+                            <img class="now-playing-movies-img" src="images/ABY.jpeg" alt = "">
+                        </div>
+                        <div class = "movies-list-item">
+
+                            <!-- Place Holder Image for Movies-->
+                            <img class="now-playing-movies-img" src="images/Wonka.jpeg" alt = "">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  <!-- div class container ends here -->
+
+
 </body>
 </html>

@@ -1,0 +1,57 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.btn {
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+.register-link {
+    text-align: center;
+    font-size: large;
+}
+
+
+/* Hover not working */
+.wrapper.register-link :hover{
+    text-align: center;
+    color:#317DFF;
+
+}
+
+.wrapper .input-box {
+    position: relative;
+    width : 150%;
+    height: 60px;
+    margin : 40px 0;
+}
+
+.button-box {
+    position: relative;
+    width : 100%;
+    height: 50px;
+    margin : 40px 0;
+}
+
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 1px solid rgb(50, 49, 49);
+    outline: none;
+    border-radius:50px;
+
+
+}
+
+
+
+
+  
+   

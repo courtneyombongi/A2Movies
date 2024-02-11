@@ -19,12 +19,16 @@
   }
 
   .logo{
-     
-    cursor:pointer;
+    width: 300px;
+    cursor: pointer;
+    left: 0;
+    
   }
+   
   .nav__links {
   list-style: none;
   text-decoration: none;
+
   } 
 
   .nav__links li {
@@ -33,7 +37,7 @@
     text-decoration: none;
 
   }
-  
+  /* Navigation Links for Admin, Login and Movies */
   .nav__links li a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
@@ -41,8 +45,8 @@
 
   .nav__links li a:hover {
     color:#317DFF;
+    font-size: large;
   }
-
  
   .search {
     margin-left: 20px; 
@@ -62,4 +66,44 @@
     color: #000000; 
 }
  
+ .content-holder {
+ margin-left: 50px;
+ background-color: #ffffff; 
+
+ }
+
+ .movies-list-title{
+  position: relative;
+ }
  
+ .now-playing-movies-img {
+  height :50vh;
+  padding: 20px;
+  width: fit-content;
+  object-fit: cover;
+  transition: all 1s ease-in-out;
+  position: relative;
+  
+ }
+
+
+ /** Title for movies that are playing **/
+  
+
+ .movies-list{
+  display: flex;
+  align-items: center;
+ }
+
+ .movies-list-item:hover .now-playing-movies-img {
+  transform: scale(1.2);
+
+ }
+ 
+
+ 
+
+ 
+ 
+ 
+
