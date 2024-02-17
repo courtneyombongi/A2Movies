@@ -7,50 +7,50 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Enable back on to put style -->
-    <link rel="stylesheet" href="css/main.css"> 
+    <!-- Enable to put style on page -->
      <link rel="stylesheet" href="css/login.css"> 
+     <link rel="stylesheet" href="css/main.css"> 
+ 
 </head>
 
 <body>
+
     <header>
-        <img class="logo" src="images/A2 Movies Icon.jpeg" alt="logo">  
+    <a href= "index.html">
+        <img class="logo" src="images/A2 Movies Icon.jpeg" alt="logo">
+    </a>
     </header>
 
 
 
     <!-- Beginning Field for Login Info -->
-
-    <div class ="wrapper">
-        <form action=" ">
+    <div class ="wrapper">   <!--Div class for wrapper login starts here -->
+        <form action=" "> <!-- will later specify url post-->
             <h1>Login</h1>
-
-             <!-- Input Box for filling out Email Address-->
-            <div class="input-box" >   
+            
+            <!-- Input Box for filling out Email Address-->
+             <div class="input-box" >
                 <input type="text" placeholder=" Email Address" required>  
             </div>
-            
             <!-- Input Box for filling out Password-->
             <div class=" input-box" >
-                <input type="text" placeholder=" Password" required>
-              
-               
-                 <!-- Button Box for loggg in-->
-                <div class = "button-box">
-                    <button type = "submit" class ="btn"> Login</button>
-                </div> 
+                <input type= "password" placeholder=" Password" required>
+            </div>  
 
-                <div class= "resgister-Link">
-                    <p> Don't have an A2 account?
-                         <a href="#">Register Now! </a> 
-                        </p>
-                    
-                </div>    
+            <!-- Button Box for log in-->
+            <div class = "button-box">
+                <button type = "submit" class ="button"> Login </button>
+            </div>
+    
+            <div class= "register-link">
+                <p> Don't have an A2 account?<a href="register.html">Register Now! </a></p>
+            </div>
+
+            <div class="forgot-password">
+                <p> Forgot Password?<a href="#">Reset Here?</a></p>  <!--eventually replace with reset account page-->
+            </div>
         </form>
-    </div>
-
-
-  
+    </div> <!--Div class for wrapper login ends  here -->
 
 </body>
 </html>
