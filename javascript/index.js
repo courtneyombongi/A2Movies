@@ -6,9 +6,6 @@ const arrows = document.querySelectorAll(".arrowicon");
 const movieLists = document.querySelectorAll(".movies-list");
 
 
-
-
-
 //  looping through each arrow icon (current amount of arrrows on page is 2 )
 arrows.forEach((arrowicon, i) => {
 
@@ -24,9 +21,9 @@ arrows.forEach((arrowicon, i) => {
 
         // if there are more items to display in the movie list then continue to show the rest of the list 
         // if not the the first movie item will reset to it'a original position
-        
 
-        if(itemNumber - (3 + clickCount) + (3- movieImgRatio) >= 0) {
+
+        if(itemNumber - (4 + clickCount) + (4- movieImgRatio) >= 0) {
             movieLists[i].style.transform = `translateX(${
                 movieLists[i].computedStyleMap().get("transform")[0].x.value
                  - 400}px)`;
